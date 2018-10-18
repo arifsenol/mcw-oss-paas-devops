@@ -11,7 +11,7 @@ var plan = require('./routes/plan');
 var user = require('./routes/user');
 var userSession = require('./routes/session');
 
-var app = express();
+var app = express(); 
 
 
 var databaseUrl = 'mongodb://best-for-you-db-arifsenol:s0qs3urQzIwl1inlBwtSklrh2OSRpwUBp6HxS9IjyIKDbMW4sHsWgcTF1swON1MXnGcNXqFqP4TmQ5UefN2Ndg==@best-for-you-db-arifsenol.documents.azure.com:10255/best-for-you-organics?ssl=true&replicaSet=globaldb';
